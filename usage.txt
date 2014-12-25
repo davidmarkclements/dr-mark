@@ -1,0 +1,10 @@
+
+  dr <file.md>
+
+    --head <file.html>    prefix with header html
+
+    --foot <file.html>    suffix with footer html
+
+    --style               Output suggested/base docs CSS
+
+    --help                This text
