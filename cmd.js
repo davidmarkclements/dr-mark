@@ -15,7 +15,13 @@ if (argv.styles) {
   return console.log(fs.readFileSync(path.join(__dirname, 'base/style.css'))+'')
 }
 var md = argv._[0] || argv.bare;
-var body = md ? dm(fs.readFileSync(md)+'') : '';
+var lexicon; 
+
+if (argv.lexicon) {
+  try { lexicon = require(argv.lexicon) } catch (e) {}
+}
+
+var body = md ? dm(fs.readFileSync(md)+'', lexicon) : '';
 
 if (!body) { return help(); }
 
