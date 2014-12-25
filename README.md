@@ -1,7 +1,11 @@
 # Dr Mark
 
-Generates summary docs, <http://redis.io/commands> style,
-using repurposed (doctored) markdown
+Generated summary docs with doctored markdown 
+
+
+Summary docs exemplified by <http://redis.io/commands>
+
+"Doctored" as in repurposed markdown. 
 
 ## Install
 
