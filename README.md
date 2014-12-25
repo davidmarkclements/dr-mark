@@ -85,7 +85,7 @@ dr --head header.html --foot footer.html docs.md > docs.html
 Output suggested/base docs CSS:
 
 ```sh
-dr --style
+dr --styles
 ```
 
 ## Require

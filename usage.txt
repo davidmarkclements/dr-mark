@@ -5,6 +5,6 @@
 
     --foot <file.html>    suffix with footer html
 
-    --style               Output suggested/base docs CSS
+    --styles              Output suggested/base docs CSS
 
     --help                This text
